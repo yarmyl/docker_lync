@@ -18,6 +18,8 @@ touch accounts.xml
 		<name>[SIP],[DOMAIN\USER]</name>
 		<password>[PASS]</password>
 		<alias>[ALIAS]</alias>
+		<statuses>
+		</statuses>
 		<settings>
 			<setting name='allow-web-photo' type='bool'>0</setting>
 			<setting name='dont-publish' type='bool'>0</setting>
