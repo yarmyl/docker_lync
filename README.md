@@ -51,5 +51,5 @@ docker build -t docker_lync .
 ## RUN example
 
 ```
-docker run --rm  -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -p 1112:1112 -d lync_server
+docker run --rm  -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -p 1112:1112 -d docker_lync
 ````
