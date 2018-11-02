@@ -53,5 +53,5 @@ docker build -t docker_lync .
 ## RUN example
 
 ```
-docker run --restart unless-stopped -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -p 1112:1112 -d docker_lync
+docker run --restart unless-stopped -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --net=host -p 1112:1112 -d docker_lync
 ````
