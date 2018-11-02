@@ -46,7 +46,7 @@ touch accounts.xml
 ```
 git clone https://github.com/yarmyl/docker_lync.git
 cd docker_lync/
-mkdir docker_lync/.purple/ && mv ../accounts.xml docker_lync/.purple/
+mkdir .purple/ && mv ../accounts.xml .purple/
 docker build -t docker_lync .
 ```
 
